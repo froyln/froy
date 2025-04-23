@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(10, 10, 10);;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.resultado-pantalla {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(104, 0, 104);
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(124, 39, 203);
+    min-width: 500px;
+    max-width: 500px; 
+    min-block-size: 92px;   
+    position: relative;    
+    align-content: center;
+    overflow: auto;
+    text-align: right;
+    color: aliceblue;
+    font-style: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 1s;
+    cursor: crosshair;
+    /* box-shadow: 0 0 20px blueviolet; */
+}
+
+.resultado-pantalla:hover {
+    background-color: rgb(3, 96, 121);
+    box-shadow: 0 0 15px blueviolet;
+}
+
+.botones-clase {
+    position: relative;
+    text-align: center;
+}
+
+.button {
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: blueviolet;
+    font-size: 25px;
+    background-color: rgb(104, 0, 104);
+    color: aliceblue;
+    block-size: 50px;
+    margin: 5px;
+    margin-bottom: 35px;
+    min-block-size: 150px;
+    min-height: auto;
+    min-width: 120px;
+    box-shadow: 0 0 10px blueviolet;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(167, 12, 167);
+    box-shadow: 0 0 35px blueviolet;
+}
+
+#button_c {
+    background-color: rgb(3, 96, 121);
+    transition: 1s;
+}
+
+#button_c:hover {
+    background-color: rgb(5, 176, 223);
+    transition: 1s;
+}
+
+#button_resultado {
+    background-color: rgb(3, 96, 121);
+}
+
+#button_resultado:hover {
+    background-color: rgb(5, 176, 223);
+    transition: 1s;
+}
+
+#button_tamal {
+    background-color: rgb(3, 96, 121);
+    width: 258px;
+}
+
+#button_tamal:hover {
+    background-color: rgb(5, 176, 223);
+    transition: 1s;
+}
+
+#button_dividir {
+    background-color: rgb(3, 96, 121);
+}
+
+#button_dividir:hover {
+    background-color: rgb(5, 176, 223);
+    transition: 1s;
+}
+
+#button_multiplicar {
+    background-color: rgb(3, 96, 121);
+}
+
+#button_multiplicar:hover {
+    background-color: rgb(5, 176, 223);
+    transition: 1s;
+}
+
+#button_restar {
+    background-color: rgb(3, 96, 121);
+}
+
+#button_restar:hover {
+    background-color: rgb(5, 176, 223);
+    transition: 1s;
+}
+
+#button_sumar {
+    background-color: rgb(3, 96, 121);
+}
+
+#button_sumar:hover {
+    background-color: rgb(5, 176, 223);
+    transition: 1s;
+}
+
+@media screen and (max-width: 768px) {
+    .resultado-pantalla {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(104, 0, 104);
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 5px;
+        border-color: rgb(124, 39, 203);
+        min-width: 50px;
+        max-width: 300px; 
+        min-block-size: 92px;   
+        position: relative;    
+        align-content: center;
+        /* box-shadow: 0 0 20px blueviolet; */
+    }
+    
+    .button {
+        border-radius: 20px;
+        border-width: 5px;
+        border-color: blueviolet;
+        font-size: 25px;
+        background-color: rgb(104, 0, 104);
+        color: aliceblue;
+        block-size: 50px;
+        margin: 5px;
+        margin-bottom: 35px;
+        min-block-size: 150px;
+        min-height: 50px;
+        min-width: 70px;
+        box-shadow: 0 0 10px blueviolet;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    #button_tamal {
+        width: 158px;
+    }
+}
