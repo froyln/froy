@@ -86,6 +86,7 @@ a {
 }
 
 .imagen-publicacion {
+    cursor: pointer;
     border: 2.5px;
     border-style: solid;
     border-color: darkmagenta;
@@ -112,6 +113,7 @@ a {
 }
 
 .ver-mas-boton {
+    cursor: pointer;
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-top: 0.5%;
