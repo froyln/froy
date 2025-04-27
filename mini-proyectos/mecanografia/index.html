@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="https://froyln.github.io/froy/logos/froycaricatura.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> 
+    <title>Mecanografia</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function abrirTeclado() {
+            const input = document.getElementById('campo-entrada');
+            input.style.display = 'block'; // Asegúrate de que el campo sea visible
+            input.focus(); // Enfoca el campo para abrir el teclado
+        }
+    </script>
+</head>
+<body>
+<div class="container_2">
+<div class="container">
+
+    <div class="Titulo">
+        <h1 class="titulo_principal">MECANOGRAFIA</h1>
+        <h2 class="titulo_secundario">░▒▒ Nota: requiere el teclado en español ▒▒░</h2>    
+    </div>
+
+    <div class="redes">
+    <div class="redes-sociales">
+        <a href="https://github.com/froyln" style="text-decoration: none; color: white;">░░░░&nbsp;&nbsp;Github</a>
+    </div>
+
+    <div class="redes-sociales">
+        <a href="https://www.instagram.com/froy.xo/" style="text-decoration: none; color: white;">░░&nbsp;&nbsp;Instagram&nbsp;&nbsp;░░</a>
+    </div>
+
+    <div class="redes-sociales" >
+        <a href="https://x.com/Kisdeh" style="text-decoration: none; color: white;">&nbsp;Twitter &nbsp;░░░░</a>
+    </div>
+    <br>
+    <br>
+    
+    <div class="Palabra_layout">
+        <div class="estilo-ventana">
+            <!-- <h1 class="palabra">&#9644 &nbsp; X</h1> -->
+            <img src="sources/barra.png" width="100%">
+        </div>
+        <div class="Palabra">
+            <h1 id="letras_tecleadas">ae</h1>
+            <h1 id="letras_sin_teclear">ae</h1>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Botón para abrir el teclado -->
+    <div id="boton_abrir_teclado">
+        <button id="boton_abrir_teclado_boton" onclick="abrirTeclado()">Abrir teclado</button>
+    </div>
+
+    <!-- Campo de entrada oculto -->
+    <input id="campo-entrada" type="text" style="display: none;">
+
+    <div class="textos">
+        <div class="textos_bottom" id="textos_palabras_tecleadas">
+            <p class="textos_bottom_palabras">Palabras:</p>
+            <p class="textos_bottom_palabras" id="palabras_completadas">0</p>
+        </div>
+        
+        <div class="textos_bottom">
+            <p class="textos_bottom_palabras">Errores:</p>
+            <p class="textos_bottom_palabras" id="errores">0</p>
+        </div>
+    </div>     
+
+    <div class="decoracion2">
+        <img src="sources/barra.png" width="200px" class="mini_decoracion2" id="barra_decoracion">
+        <img src="sources/pixel-cat.gif" class="mini_decoracion2" width="80px" id="pixel-cat">
+        <button id="pixel-cat-aceptar" onclick="location.href='cat-accept.html'">Aceptar</button>
+    </div>
+
+    <div class="decoracion1">
+        <img src="sources/ventana_de_decoracion.png" width="300px" id="ventana_decoracion">
+    </div>
+
+</div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
